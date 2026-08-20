@@ -17,7 +17,7 @@ interface PostsResponse {
 // SSG: no `cache` option means Next.js defaults to caching this fetch at
 // build time, producing a statically generated page.
 async function getPosts(): Promise<Post[]> {
-  const res = await fetch("https://dummyjson.com/posts?limit=1");
+  const res = await fetch("https://dummyjson.com/posts?limit=15");
 
   if (!res.ok) {
     throw new Error("Failed to fetch posts");
