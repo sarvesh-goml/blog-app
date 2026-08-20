@@ -34,7 +34,6 @@ export default async function Home() {
     <div>
       <h1 className="page-title">Latest Posts</h1>
       <p className="page-subtitle">
-        Statically generated at build time from dummyjson.com/posts
       </p>
 
       <ul className="post-list">
